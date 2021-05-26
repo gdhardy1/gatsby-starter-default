@@ -8,7 +8,7 @@ const SecondPage = () => (
   <Layout>
     <Seo title="Page two" />
     <h1>Hi from the second page</h1>
-    <p>{window.location}</p>
+    <p>{duck}</p>
     <Link to="/">Go back to the homepage</Link>
   </Layout>
 )
